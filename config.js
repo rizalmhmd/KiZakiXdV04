@@ -3,7 +3,7 @@ const chalk = require('chalk')
 
 global.thum = fs.readFileSync("./media/zaki.jpg")
 
-global.autoReadAll = true 
+global.autoReadAll = false 
 
 // '6285878313791' ganti nomor kalian '628xxxxxx'
 //KiZakiXD ganti nama kalian xxxxz
@@ -53,7 +53,7 @@ global.mess = {
     error: 'Fitur sedang error!',
         endLimit: 'Limit Harian Anda Telah Habis, Limit Akan Direset Setiap Jam 12',
     wrongFormat: 'Perintah Salah!!\nSertakan Link setelah Command..',
-    example1: 'Welcome @user Di Group @subject Jangan Lupa Baca Rules @desc\n\nNote :\n1. @user (Mention User Join)\n2. @subject (Group Name)\n3. @tanggal (Date Now)\n4. @desc (Get Description Group)'
+    example1: '*HAI*, @user!\n\n*WELCOME TO GC* @subject\n\n*-----------------KARTU INTRO-----------------*\n*┏━━━━━━꧁۝☆ꦿ⃔¤۝꧂━━━━━┓*\n*╠➣NAMA :*\n*╠➣UMUR :*\n*╠➣KELAS :*\n*╠➣JNS KELAMIN :*\n*╠➣ASKOT :*\n*╠➣HOBI :*\n*╠➣AGAMA :*\n*┗━━━━━━꧁۝☆ꦿ⃔¤۝꧂━━━━━┛*'
 ,
     example2: 'Good Bye @user Di Group @subject Jangan Lupa Baca Rules @desc\n\nNote :\n1. @user (Mention User Join)\n2. @subject (Group Name)\n3. @tanggal (Date Now)\n4. @desc (Get Description Group)'    
     
